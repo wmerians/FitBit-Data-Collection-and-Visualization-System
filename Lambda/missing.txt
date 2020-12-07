@@ -1,0 +1,23 @@
+Wyatt Merians
+missing.txt
+12/7/2020
+
+This file is to add some notes, so a user can make this code run:
+
+In order to make this functional, you need to add back in the keys and names that I marked as missing.
+Additionally, you need to save into the folder certain python modules (this is so one can zip and upload
+the file to the lambda function).
+The modules needed are:
+	json
+	fitbit
+	requests
+	sys
+	datetime
+	boto3
+	Decimal (from decimal)
+If there are any issues, first check for all modules. Additionally, it is possible that one of those modules need a newer/additional module. So check for that.
+
+All of this information, needs to be saved into a .zip file and uploaded to your lambda file.
+Then to run it, open the link that you have created and check if it saved the data.
+
+A future improvement could be to separate authorization and saving data into 2 separate lambda functions to prevent overloading one and to get the user back to the app faster.
