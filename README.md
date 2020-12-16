@@ -14,10 +14,10 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About
-**Author:** Wyatt Merians
-**Title:** FitBit Data Collection and Visualization System _or_ Enhancing Healthcare Chatbot Experience through Fitbit Data
-**Mentor:** Dr. Hidy Kong
-**Project Timeline:** Developed from March 2020 to December 2020.
+**Author:** Wyatt Merians<br/>
+**Title:** FitBit Data Collection and Visualization System _or_ Enhancing Healthcare Chatbot Experience through Fitbit Data<br/>
+**Mentor:** Dr. Hidy Kong<br/>
+**Project Timeline:** Developed from March 2020 to December 2020.<br/>
 
 ## Contact Me
 If you have questions, confusion, or any other reason, please contact me at _w.merians@gmail.com_ with this project title in the subject line, and I will get back to you as soon as possible.
