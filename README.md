@@ -50,6 +50,8 @@ The FitBit Folder encapsulates the files to grab and collect FitBit activity and
 The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be collected and saved to AWS DynamoDB via a Lambda Function. These files also parse and save the data correctly. In order to be used, one will have to add in the Lambda, DynamoDB, and FitBit API & SDK missing information. Additionally, one would have to add the missing modules and then zip everything together and upload to their Lambda function.
 
 ## Visualization Results
+**Activity Visualization:** <br/>
+![Activity Visualization](https://user-images.githubusercontent.com/52422172/102399744-a462ee00-3fa6-11eb-80c6-5e9eaaf878a4.png)
 
 ## Poster Presentation
 
