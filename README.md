@@ -47,7 +47,7 @@ The D3 Folder encapsulates the files that created the D3 visualizations. This fo
 ### FitBit
 The FitBit Folder encapsulates the files to grab and collect FitBit activity and sleep data. These files were the first developed and used to learn how to grab data. If you want to use these files for your own project, you will need to register a FitBit app in order to get Client ID and Secret. I removed mine for security and privacy purposes, but if you add all the needed modules and add your own Client ID and Secret, these files will allow you to grab FitBit data.
 ### Lambda
-The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be collected and saved to AWS DynamoDB via a Lambda Function. In order to be used, one will have to add in the Lambda, DynamoDB, and FitBit API & SDK missing information. Additionally, one would have to add the missing modules and then zip everything together and upload to their Lambda function.
+The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be collected and saved to AWS DynamoDB via a Lambda Function. These files also parse and save the data correctly. In order to be used, one will have to add in the Lambda, DynamoDB, and FitBit API & SDK missing information. Additionally, one would have to add the missing modules and then zip everything together and upload to their Lambda function.
 
 ## Visualization Results
 
@@ -57,13 +57,16 @@ The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be coll
 
 ## Useful Resources
 FitBit SDK and API Documentation listed in Sources. These sources take a lot of reading and diving in order to find everything one is looking for. <br/>
-"Using the Fitbit Web API with Python" by Michael Galarnyk is a great tutorial and introduction to grabbing FitBit data. I used this article to learn and set up my own initial FitBit collection system.
+"Using the Fitbit Web API with Python" by Michael Galarnyk is a great tutorial and introduction to grabbing FitBit data. I used this article to learn and set up my own initial FitBit collection system. <br/>
+AWS Lambda and DynamoDB documentation. 
 
 ## Sources
 **FitBit SDK:** https://dev.fitbit.com/build/reference/web-api/ <br/>
 **FitBit API:** https://python-fitbit.readthedocs.io/en/latest/#quickstart <br/>
 **Oauth2:** https://github.com/orcasgit/python-fitbit/blob/master/gather_keys_oauth2.py <br/>
 **"Using the Fitbit Web API with Python" by Michael Galarnyk:** https://towardsdatascience.com/using-the-fitbit-web-api-with-python-f29f119621ea 
+**AWS Lambda:** https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+**AWS DynamoDB:** https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.get_item
 
 ## Acknowledgements
 I want to thank my mentor Dr. Hidy Kong, who guided me throughout this project. Additionally, I want to thank Will Kearns, Weichao Yuwen, and the rest of the CocoBot Team at the University of Washington.
