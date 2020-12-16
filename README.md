@@ -59,6 +59,9 @@ The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be coll
 ![Merians Poster](https://user-images.githubusercontent.com/52422172/102400648-dd4f9280-3fa7-11eb-9491-ec6f03e6679a.png)
 
 ## Video Presentation
+### Enhancing Healthcare Chatbot Experience through Fitbit Data
+[![Enhancing Healthcare Chatbot Experience through Fitbit Data](https://user-images.githubusercontent.com/52422172/102403699-49cc9080-3fac-11eb-9b08-be34eee9e988.png)](https://youtu.be/38bQ0auiuag "Enhancing Healthcare Chatbot Experience through Fitbit Data")
+_Thumbnail is a link to the video, which is hosted on Youtube_
 
 ## Useful Resources
 FitBit SDK and API Documentation listed in Sources. These sources take a lot of reading and diving in order to find everything one is looking for. <br/>
