@@ -14,10 +14,10 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About
-**Author:** Wyatt Merians<br/>
-**Title:** FitBit Data Collection and Visualization System _or_ Enhancing Healthcare Chatbot Experience through Fitbit Data<br/>
-**Mentor:** Dr. Hidy Kong<br/>
-**Project Timeline:** Developed from March 2020 to December 2020.<br/>
+**Author:** Wyatt Merians <br/>
+**Title:** FitBit Data Collection and Visualization System _or_ Enhancing Healthcare Chatbot Experience through Fitbit Data <br/>
+**Mentor:** Dr. Hidy Kong <br/>
+**Project Timeline:** Developed from March 2020 to December 2020.
 
 ## Contact Me
 If you have questions, confusion, or any other reason, please contact me at _w.merians@gmail.com_ with this project title in the subject line, and I will get back to you as soon as possible.
@@ -35,7 +35,7 @@ This project was developed in Python and Javascript, utilizing other tools when 
 #### Python
 Python was used in two parts. The first is the collection of FitBit Data, and the second is the integration via Amazon Web Services (AWS) Lambda and AWS DynamoDB.
 In order to accomplish the first section and collect the data, I utilized both FitBit API and FitBit SDK. I also used the datetime, os, json, and sys Python modules. I also used Oauth2 by ORCAS.
-In 
+In order to accomplish the second section and to collect data via AWS Lambda, 
 #### Javascript
 Javascript was used to create the initial visualizations. We focused on creating heatmaps via D3.
 ### Scope of functionalities
@@ -56,14 +56,14 @@ The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be coll
 ## Video Presentation
 
 ## Useful Resources
-FitBit SDK and API Documentation listed in Sources. These sources take a lot of reading and diving in order to find everything one is looking for.
+FitBit SDK and API Documentation listed in Sources. These sources take a lot of reading and diving in order to find everything one is looking for. <br/>
 "Using the Fitbit Web API with Python" by Michael Galarnyk is a great tutorial and introduction to grabbing FitBit data. I used this article to learn and set up my own initial FitBit collection system.
 
 ## Sources
-**FitBit SDK:** https://dev.fitbit.com/build/reference/web-api/
-**FitBit API:** https://python-fitbit.readthedocs.io/en/latest/#quickstart
-**Oauth2:** https://github.com/orcasgit/python-fitbit/blob/master/gather_keys_oauth2.py
-**"Using the Fitbit Web API with Python" by Michael Galarnyk:** https://towardsdatascience.com/using-the-fitbit-web-api-with-python-f29f119621ea
+**FitBit SDK:** https://dev.fitbit.com/build/reference/web-api/ <br/>
+**FitBit API:** https://python-fitbit.readthedocs.io/en/latest/#quickstart <br/>
+**Oauth2:** https://github.com/orcasgit/python-fitbit/blob/master/gather_keys_oauth2.py <br/>
+**"Using the Fitbit Web API with Python" by Michael Galarnyk:** https://towardsdatascience.com/using-the-fitbit-web-api-with-python-f29f119621ea 
 
 ## Acknowledgements
 I want to thank my mentor Dr. Hidy Kong, who guided me throughout this project. Additionally, I want to thank Will Kearns, Weichao Yuwen, and the rest of the CocoBot Team at the University of Washington.
