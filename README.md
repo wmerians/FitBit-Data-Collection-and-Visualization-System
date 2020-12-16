@@ -33,9 +33,9 @@ In order to improve the lambda function's speed, one ought to the lambda functio
 ### Technologies
 This project was developed in Python and Javascript, utilizing other tools when necessary.
 #### Python
-Python was used in two parts. The first is the collection of FitBit Data, and the second is the integration via Amazon Web Services (AWS) Lambda and AWS DynamoDB.
-In order to accomplish the first section and collect the data, I utilized both FitBit API and FitBit SDK. I also used the datetime, os, json, and sys Python modules. I also used Oauth2 by ORCAS.
-In order to accomplish the second section and to collect data via AWS Lambda, 
+Python was used in two parts. The first is the collection of FitBit Data, and the second is the integration via Amazon Web Services (AWS) Lambda and AWS DynamoDB. <br/>
+In order to accomplish the first section and collect the data, I utilized both FitBit API and FitBit SDK. I also used the datetime, os, json, and sys Python modules. I also used Oauth2 by ORCAS. <br/>
+In order to accomplish the second section and to collect data via AWS Lambda, I utilized everything in the first section and used AWS Lambda, AWS DynamoDB, boto3 (required for AWS), Requests, and decimal.
 #### Javascript
 Javascript was used to create the initial visualizations. We focused on creating heatmaps via D3.
 ### Scope of functionalities
