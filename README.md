@@ -56,6 +56,7 @@ The Lambda Folder encapsulates the files I wrote to allow FitBit Data to be coll
 ![Sleep Visualization](https://user-images.githubusercontent.com/52422172/102399914-d411f600-3fa6-11eb-90aa-3c3267f82a37.png)
 
 ## Poster Presentation
+![Merians Poster](https://user-images.githubusercontent.com/52422172/102400648-dd4f9280-3fa7-11eb-9491-ec6f03e6679a.png)
 
 ## Video Presentation
 
