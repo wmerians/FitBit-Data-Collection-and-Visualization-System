@@ -29,7 +29,9 @@ Enhancing Healthcare Chatbot Experience through Fitbit Data: This is a FitBit Co
 ### Project Status
 My portion of this project is finished; my goal was to learn how to grab data from FitBit and start the process of integration with Cocobot. This project will be continued by other team members on this joint project by Seattle University and The University of Washington.
 ### Future Improvements
-In order to improve the lambda function's speed, one ought to the lambda function into two lambda functions: One to authorize and the other to grab and save data.
+In order to improve the lambda function's speed, one ought to separate the lambda function into two lambda functions: One to authorize and the other to grab and save data. <br/>
+Additionally, further development on the visualizations can make them more applicable and allow further integration into Cocobot. <br/>
+And deciding on the necessary information to grab and setting up the files to run behind the scenes, will allow it to run smoother and not distract the user.
 ### Technologies
 This project was developed in Python and Javascript, utilizing other tools when necessary.
 #### Python
@@ -72,9 +74,9 @@ AWS Lambda and DynamoDB documentation.
 **FitBit SDK:** https://dev.fitbit.com/build/reference/web-api/ <br/>
 **FitBit API:** https://python-fitbit.readthedocs.io/en/latest/#quickstart <br/>
 **Oauth2:** https://github.com/orcasgit/python-fitbit/blob/master/gather_keys_oauth2.py <br/>
-**"Using the Fitbit Web API with Python" by Michael Galarnyk:** https://towardsdatascience.com/using-the-fitbit-web-api-with-python-f29f119621ea 
-**AWS Lambda:** https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+**"Using the Fitbit Web API with Python" by Michael Galarnyk:** https://towardsdatascience.com/using-the-fitbit-web-api-with-python-f29f119621ea <br/>
+**AWS Lambda:** https://docs.aws.amazon.com/lambda/latest/dg/welcome.html <br/>
 **AWS DynamoDB:** https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.get_item
 
 ## Acknowledgements
-I want to thank my mentor Dr. Hidy Kong, who guided me throughout this project. Additionally, I want to thank Will Kearns, Weichao Yuwen, and the rest of the CocoBot Team at the University of Washington.
+I want to thank my mentor Dr. Hidy Kong, who guided me throughout this project. Additionally, I want to thank Will Kearns, Dr. Weichao Yuwen, and the rest of the CocoBot Team at the University of Washington.
